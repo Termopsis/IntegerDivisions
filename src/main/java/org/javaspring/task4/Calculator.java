@@ -32,7 +32,7 @@ public class Calculator {
             return new Result(dividend,
                     divisor,
                     0,
-                    0,
+                    dividend,
                     minuendList,
                     subtrahendList,
                     dividendArrIndexList);
