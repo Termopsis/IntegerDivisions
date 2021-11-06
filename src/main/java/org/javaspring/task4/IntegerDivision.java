@@ -8,5 +8,7 @@ public class IntegerDivision {
 
         System.out.println(result);
         System.out.println(new StandardFormatter().format(result));
+
+        System.out.println(new SimpleFormatter().format(result));
     }
 }

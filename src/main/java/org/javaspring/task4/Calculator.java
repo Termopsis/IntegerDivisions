@@ -13,7 +13,6 @@ public class Calculator {
         List<Integer> subtrahendList = new ArrayList<>(); // вычитаемое
         List<Integer> dividendArrIndexList = new ArrayList<>(); //делители
 
-        int minuendFinal = 0; // последнее уменьшаемое
         int dividendArrIndex = 0; // индекс делителя
         int result = 0;
         int minuend = 0; // тек уменьшаемое
@@ -46,7 +45,6 @@ public class Calculator {
             while (minuend < divisor) {
                 // первая итерация 0 * 10 + число из делителей по индексу 0
                 minuend = minuend * 10 + dividendArr[dividendArrIndex];
-                minuendFinal = minuend;
                 dividendArrIndex++;
 
 
@@ -94,7 +92,6 @@ public class Calculator {
             //Остановка цикла здесь для определение остатка
             if (dividendArrIndex == lengthDividend) {
                 //остаток от деления
-                minuendFinal = minuend;
                 break;
             }
         }
