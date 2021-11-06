@@ -1,6 +1,8 @@
-package org.javaspring;
+package org.javaspring.formatter;
 
-import org.javaspring.task4.*;
+import org.javaspring.task4.formatter.*;
+import org.javaspring.task4.formatter.formatterType.*;
+import org.javaspring.task4.formatter.impl.*;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;

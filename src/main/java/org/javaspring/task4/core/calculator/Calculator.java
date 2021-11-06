@@ -1,4 +1,6 @@
-package org.javaspring.task4;
+package org.javaspring.task4.core.calculator;
+
+import org.javaspring.task4.model.*;
 
 import java.util.*;
 

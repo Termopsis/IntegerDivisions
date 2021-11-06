@@ -1,4 +1,4 @@
-package org.javaspring.task4;
+package org.javaspring.task4.model;
 
 import lombok.*;
 

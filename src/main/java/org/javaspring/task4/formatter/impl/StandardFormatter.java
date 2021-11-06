@@ -1,6 +1,9 @@
-package org.javaspring.task4;
+package org.javaspring.task4.formatter.impl;
 
-public class StandardFormatter implements Formatter{
+import org.javaspring.task4.formatter.*;
+import org.javaspring.task4.model.*;
+
+public class StandardFormatter implements Formatter {
 
     @Override
     public String format(Result result) {

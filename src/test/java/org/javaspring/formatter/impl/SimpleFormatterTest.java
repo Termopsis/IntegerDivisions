@@ -1,6 +1,7 @@
-package org.javaspring;
+package org.javaspring.formatter.impl;
 
-import org.javaspring.task4.*;
+import org.javaspring.task4.formatter.impl.*;
+import org.javaspring.task4.model.*;
 import org.junit.jupiter.api.*;
 
 import java.util.*;

@@ -1,6 +1,9 @@
-package org.javaspring.task4;
+package org.javaspring.task4.formatter.impl;
 
-public class SimpleFormatter implements Formatter{
+import org.javaspring.task4.formatter.*;
+import org.javaspring.task4.model.*;
+
+public class SimpleFormatter implements Formatter {
     @Override
     public String format(Result result) {
         StringBuilder builder = new StringBuilder();

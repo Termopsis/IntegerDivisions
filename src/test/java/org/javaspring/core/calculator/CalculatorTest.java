@@ -1,6 +1,7 @@
-package org.javaspring;
+package org.javaspring.core.calculator;
 
-import org.javaspring.task4.*;
+import org.javaspring.task4.core.calculator.*;
+import org.javaspring.task4.model.*;
 import org.junit.jupiter.api.*;
 
 import java.util.*;
