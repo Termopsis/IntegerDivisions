@@ -30,8 +30,6 @@ public class SimpleFormatterTest {
         builder.append(" = ");
         builder.append(result.getQuotient());
         builder.append(";");
-//        builder.append(" Reminder is ");
-//        builder.append(result.getReminder());
 
         assertEquals(builder.toString(), simpleFormatter.format(result));
     }

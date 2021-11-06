@@ -7,8 +7,13 @@ public class IntegerDivision {
         Result result = calculator.divide(400, 40);
 
         System.out.println(result);
-        System.out.println(new StandardFormatter().format(result));
 
-        System.out.println(new SimpleFormatter().format(result));
+        Formatter standardFormatter = new FormatterFactory().getFormatter(TypeOfFormatters.STANDARD.toString());
+        System.out.println("\nstandardFormatter");
+        System.out.println(standardFormatter.format(result));
+
+        Formatter simpleFormatter = new FormatterFactory().getFormatter(TypeOfFormatters.SIMPLE.toString());
+        System.out.println("\nsimpleFormatter");
+        System.out.println(simpleFormatter.format(result));
     }
 }
